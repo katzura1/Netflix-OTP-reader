@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Preview
+
+<p align="center">
+   <img src="public/images/preview.png" alt="App preview" style="max-width:100%;height:auto;" />
+</p>
+
 ## Netflix OTP — IMAP Email Reader (singkat)
 
 Aplikasi Laravel kecil untuk membaca email melalui IMAP dan mengekstrak link / PIN yang dikirim oleh Netflix.
