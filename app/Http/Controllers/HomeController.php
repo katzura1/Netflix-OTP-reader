@@ -15,9 +15,9 @@ class HomeController extends Controller
         $messages = $folder->messages()
             ->all()
             ->limit(10)
+            ->since(\Carbon\Carbon::now()->subDays(5))
             ->setFetchOrderAsc()
             ->fetchOrderAsc()
-            ->since(\Carbon\Carbon::now()->subDays(5))
             ->get();
 
         $inbox = [];
@@ -40,6 +40,9 @@ class HomeController extends Controller
                 'account_link' => $accountLink,
             ];
         }
+
+        // reverse array
+        $inbox = array_reverse($inbox);
 
         return view('welcome', compact('inbox'));
     }
