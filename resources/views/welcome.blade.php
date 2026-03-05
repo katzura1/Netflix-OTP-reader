@@ -7,9 +7,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico" />
-    <link rel="apple-touch-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png" />
-
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
@@ -49,7 +46,7 @@
             <div class="max-w-4xl px-4 sm:px-6 lg:px-8 mx-auto text-center">
                 <div class="flex items-center justify-center gap-4">
                     <h1 class="text-3xl font-bold text-gray-800 dark:text-gray-100 sm:text-4xl">
-                        Selamat Datang di Netflix OTP
+                        Selamat Datang di Netplik OTP
                     </h1>
 
                     <!-- Theme toggle -->
@@ -68,10 +65,6 @@
                     </button>
 
                 </div>
-
-                <p class="mt-3 text-gray-600 dark:text-gray-400">
-                    Layanan verifikasi email untuk Netflix OTP
-                </p>
             </div>
         </div>
         <!-- End Title -->
